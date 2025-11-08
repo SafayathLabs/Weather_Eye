@@ -38,9 +38,10 @@ I wanted something reliable and offline — useful for quick ambient checks in a
 1. Install **ESP8266** support in Arduino IDE.  
 2. Add these libraries if you don't have them: `DHT` (by Adafruit or equivalent).  
 3. Paste the provided firmware into a new sketch and upload to your board.  
-4. Power the board. On your phone or PC, connect to the Wi-Fi SSID: **Weather Eye** (password: `12345678`).  
-5. Open a browser and go to `http://192.168.4.1` (or simply open any page — captive portal redirects to the dashboard).  
-6. The page shows temperature (°C), humidity (%) and the computed "feels like" value; `/data` returns JSON.
+4. You can also flash the **bin file** of this code. To download the bin file, visit the **latest releases** section, so you can flash it directly from there.  
+5. Power the board. On your phone or PC, connect to the Wi-Fi SSID: **Weather Eye** (password: `12345678`).  
+6. Open a browser and go to `http://192.168.4.1` (or simply open any page — captive portal redirects to the dashboard).  
+7. The page shows temperature (°C), humidity (%) and the computed "feels like" value; `/data` returns JSON.
 
 ---
 
